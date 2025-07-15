@@ -175,8 +175,8 @@
 .form-footer-title {
   text-align: center;
 }
-
-.file-upload-image-conrainer {
+/* не понимаю почему, при загрузке фото, эти стили не срабатывают?! */
+.file-upload-image-conrainer { 
   display: flex;
   align-items: center;
 }
