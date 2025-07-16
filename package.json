@@ -1,0 +1,23 @@
+{
+  "name": "webdev-cw-instapro",
+  "version": "1.0.0",
+  "description": "MVP социальной сети для обмена фотографиями",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenisGodov1993/webdev-cw-instapro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DenisGodov1993/webdev-cw-instapro/issues"
+  },
+  "homepage": "https://github.com/DenisGodov1993/webdev-cw-instapro#readme",
+  "dependencies": {
+    "date-fns": "^4.1.0"
+  }
+}

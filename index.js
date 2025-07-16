@@ -17,6 +17,8 @@ import {
   saveUserToLocalStorage,
 } from "./helpers.js";
 import { renderUserPostsPageComponent } from "./components/user-page-component.js";
+// import { formatDistanceToNow } from 'date-fns';
+// import { ru } from 'date-fns/locale';
 
 export let user = getUserFromLocalStorage();
 export let page = null;
