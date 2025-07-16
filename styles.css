@@ -93,6 +93,24 @@
   cursor: pointer;
 }
 
+/* новое */
+.delete-button {
+  background-color: rgb(235, 175, 175);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color:red;
+}
+/* конец нового */
+
 .user-name {
   font-weight: 500;
 }
@@ -175,8 +193,8 @@
 .form-footer-title {
   text-align: center;
 }
-
-.file-upload-image-conrainer {
+/* не понимаю почему, при загрузке фото, эти стили не срабатывают?! */
+.file-upload-image-conrainer { 
   display: flex;
   align-items: center;
 }
